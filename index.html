@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Passwort-Prüfer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Passwort-Prüfer 🔐</h1>
+  <input type="password" id="password" placeholder="Passwort eingeben">
+  <button onclick="verifizieren()">Prüfen</button>
+  <p id="resultat"></p>
+  <div id="bar" style="height: 10px; width: 100px; background-color: lightgray; margin-top: 10px;">
+    <div id="stärkeBar" style="height: 100%; width: 0%; background-color: green;"></div>
+  </div>
+</body>
+</html>
